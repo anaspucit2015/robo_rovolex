@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/robo_rovolex/static/css/main.2b41f3a7.chunk.css",
+    "main.js": "/robo_rovolex/static/js/main.c4a8a3c6.chunk.js",
+    "main.js.map": "/robo_rovolex/static/js/main.c4a8a3c6.chunk.js.map",
+    "runtime-main.js": "/robo_rovolex/static/js/runtime-main.003211e2.js",
+    "runtime-main.js.map": "/robo_rovolex/static/js/runtime-main.003211e2.js.map",
+    "static/js/2.6b65e638.chunk.js": "/robo_rovolex/static/js/2.6b65e638.chunk.js",
+    "static/js/2.6b65e638.chunk.js.map": "/robo_rovolex/static/js/2.6b65e638.chunk.js.map",
+    "static/js/3.a8ff2714.chunk.js": "/robo_rovolex/static/js/3.a8ff2714.chunk.js",
+    "static/js/3.a8ff2714.chunk.js.map": "/robo_rovolex/static/js/3.a8ff2714.chunk.js.map",
+    "index.html": "/robo_rovolex/index.html",
+    "static/css/main.2b41f3a7.chunk.css.map": "/robo_rovolex/static/css/main.2b41f3a7.chunk.css.map",
+    "static/js/2.6b65e638.chunk.js.LICENSE.txt": "/robo_rovolex/static/js/2.6b65e638.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.003211e2.js",
+    "static/js/2.6b65e638.chunk.js",
+    "static/css/main.2b41f3a7.chunk.css",
+    "static/js/main.c4a8a3c6.chunk.js"
+  ]
+}
