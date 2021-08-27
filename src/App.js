@@ -17,16 +17,18 @@ class App extends Component {
     .then(user=> this.setState({monsters:user}))
     .catch(error=> console.log(error))
   }
+   handleChange=(e)=>{
+    this.setState({searchField:e.target.value});
+  }
  render(){
     const {monsters,searchField}=this.state;
     const filterMonster=monsters.filter(monster=>monster.name.toLowerCase().includes(searchField.toLowerCase()))
   return (
     <div className="App">
+      <h1 className='heading'>Robo Rovoldex</h1>
       <SearchBox
         placeholder="Search Mosnters"
-        handleChange={e=>{
-          this.setState({searchField:e.target.value});
-          }}
+        handleChange={this.handleChange}
       />
       <CardList monsters={filterMonster}/>
     </div>
